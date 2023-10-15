@@ -1,5 +1,5 @@
 list_players = ["Маша", "Петя", "Саша", "Оля", "Кирилл", "Коля"]
-l=len(list_players)
-print(list_players[:l//2])
-print(list_players[l//2:])
+mid_index = len(list_players) // 2
+print(list_players[:mid_index])
+print(list_players[mid_index:])
 # TODO Разделите участников на две команды
