@@ -1,7 +1,4 @@
 # TODO  Напишите функцию count_letters
-import math
-
-
 def count_letters(text):
     map_ = {}
     for letter in text:
@@ -14,10 +11,7 @@ def count_letters(text):
 
 
 def calculate_all_letters(text):
-    result = 0
-    for i in text:
-        if i.isalpha():
-            result += 1
+    result = sum(1 for i in text if i.isalpha())
     return result
 
 
